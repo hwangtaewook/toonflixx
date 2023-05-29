@@ -5,7 +5,7 @@ import 'package:toonflix/models/webtoon_detail_model.dart';
 import 'package:toonflix/models/webtoon_episode_model.dart';
 import 'package:toonflix/models/webtoon_model.dart';
 
-class ApiServices {
+class ApiService {
   static const String baseUrl =
       'https://webtoon-crawler.nomadcoders.workers.dev';
   static const String today = 'today';
