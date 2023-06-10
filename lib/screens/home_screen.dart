@@ -51,7 +51,6 @@ class HomeScreen extends StatelessWidget {
       itemCount: snapshot.data!.length,
       padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
       itemBuilder: (context, index) {
-        print(index);
         var webtoon = snapshot.data![index];
         return Webtoon(
             title: webtoon.title, thumb: webtoon.thumb, id: webtoon.id);
